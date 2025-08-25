@@ -215,7 +215,7 @@ function Home() {
         </h1>
         <h1 className="text-white font-bold text-xl">Software Engineer Student</h1>
         <p className="text-white w-90">
-Saya adalah siswa SMK Rekayasa Perangkat Lunak yang tertarik pada dunia pemrograman, khususnya di bidang pengembangan aplikasi dan teknologi informasi.        </p>
+Saya adalah siswa SMK Rekayasa Perangkat Lunak yang tertarik pada dunia pemrograman, khususnya di bidang pengembangan web, aplikasi dan teknologi informasi.        </p>
         <div className="flex-1 flex space-x-3">
           <a
             href={cv}
