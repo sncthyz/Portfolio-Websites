@@ -206,10 +206,10 @@ function Home() {
 
   return (
     <div
-      className="flex items-center place-content-center sm:flex-row flex-col gap-9 sm:space-x-32 sm:gap-32 min-h-screen"
+      className="flex items-center place-content-center sm:flex-row flex-col gap-9 sm:space-x-32 min-h-screen"
       id="home"
     >
-      <div className="p-10 space-y-1">
+      <div className=" space-y-1">
         <h1 className="text-white font-bold text-3xl">
           {teks[efekteks].substring(0, subindex)}
         </h1>
