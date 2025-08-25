@@ -508,42 +508,42 @@ function Project() {
       <div className="animasi space-y-20 mt-40" id="project">
         <h1 className="text-4xl font-bold text-center text-white">Project</h1>
         <div className="grid  sm:grid-cols-3 space-y-5 place-items-center">
-          <div className="bg-blue-900  animasi rounded-xl w-100 h-125 border-2 border-black">
+          <div className="bg-blue-900  animasi rounded-2xl sm:w-100 w-80 h-125 border-2 border-black">
             <div className="w-full h-65">
             <img src={displaygambar} className="w-full rounded-t-xl  h-full object-cover" alt="" />
 
             </div>
 
             <h1 className="text-center mt-5 text-2xl mb-5">Gym Rex</h1>
-            <p className="w-80 text-xs mx-auto">Aplikasi ini berguna untuk melihat panduan gerakan gym yang lengkap dengan langkah dan tips dasar. Aplikasi ini juga dibuat untuk menyelesaikan tugas akhir project kejuruan saya. </p>
+            <p className="sm:w-80 w-60 text-xs mx-auto">Aplikasi ini berguna untuk melihat panduan gerakan gym yang lengkap dengan langkah dan tips dasar. Aplikasi ini juga dibuat untuk menyelesaikan tugas akhir project kejuruan saya. </p>
             <a href="https://drive.google.com/file/d/1Ebw4BBCaJQ_F_15VdZ5YrdOJtqHUJjLB/view" className="rounded-xl mx-auto w-30 flex justify-center hover:scale-110 hover:duration-300 mt-3 p-2 border-3 border-black hover:bg-blue-900 hover:text-white bg-blue-950 text-center text-blue-100 font-semibold">View</a>
           </div>
-          <div className="bg-blue-900 animasi w-100 rounded-xl h-125 border-2 border-black">
+          <div className="bg-blue-900 animasi sm:w-100 w-80 rounded-xl sm:h-125 h-130 border-2 border-black">
             <div className="w-full h-65">
             <img src={flappymonkey} className="w-full h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
 
             <h1 className="text-center mt-5 text-2xl mb-3"> Flappy Monkey</h1>
-            <p className="w-80 text-xs mx-auto">Game ini terinspirasi dari Game Flappy bird,dimana di dalam game ini player akan mengejar skor sebanyak mungkin dengan melewati rintangan dari pipa-pipa yang ada. Juga game ini dibuat untuk menyelesaikan tugas akhir project kejuruan saya. </p>
+            <p className="sm:w-80 w-60 text-xs mx-auto">Game ini terinspirasi dari Game Flappy bird,dimana di dalam game ini player akan mengejar skor sebanyak mungkin dengan melewati rintangan dari pipa-pipa yang ada. Juga game ini dibuat untuk menyelesaikan tugas akhir project kejuruan saya. </p>
             <a href="https://drive.google.com/file/d/1OD4UT5H0jQQZN6uLEM0KvRud4Me_35RB/view?usp=drive_link" className="rounded-xl mx-auto w-30 flex justify-center hover:scale-110 hover:duration-300 mt-3 p-2 border-3 border-black hover:bg-blue-900 hover:text-white bg-blue-950 text-center text-blue-100 font-semibold">View</a>
           </div>
-          <div className="bg-blue-900 animasi h-125 w-100 rounded-xl border-2 border-black">
+          <div className="bg-blue-900 animasi h-125 sm:w-100 w-80 rounded-xl border-2 border-black">
             <div className="w-full h-65">
             <img src={cekjulukan} className="w-full h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
             <h1 className="text-center mt-5 text-2xl mb-5">Cek Julukan</h1>
-            <p className="w-80 mb-5 text-xs mx-auto">Website ini dibuat untuk mengecek julukan secara acak. Pengguna cukup memasukkan nama panggilan, lalu sistem akan secara otomatis memberikan julukan unik berdasarkan nama tersebut.</p>
+            <p className="sm:w-80 w-60  mb-5 text-xs mx-auto">Website ini dibuat untuk mengecek julukan secara acak. Pengguna cukup memasukkan nama panggilan, lalu sistem akan secara otomatis memberikan julukan unik berdasarkan nama tersebut.</p>
             <a href="https://cekjulukan.vercel.app/" className="rounded-xl mx-auto w-30 flex justify-center hover:scale-110 hover:duration-300 mt-3 p-2 border-3 border-black hover:bg-blue-900 hover:text-white bg-blue-950 text-center text-blue-100 font-semibold">View</a>
           </div>
-             <div className="bg-blue-900 h-125 w-100 animasi rounded-xl border-2 border-black">
+             <div className="bg-blue-900 h-125 sm:w-100 w-80 animasi rounded-xl border-2 border-black">
             <div className="w-full h-65">
-            <img src={perpus} className="w-full h-full  rounded-t-xl object-cover" alt="" />
+            <img src={perpus} className="sm:w-full w-80 h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
             <h1 className="text-center mt-5 text-2xl mb-5">E Library</h1>
-            <p className="w-80 text-xs mx-auto">Website ini dibuat untuk memudahkan pengguna dalam membaca dan meminjam buku dari rumah secara online, sehingga tidak perlu datang langsung ke perpustakaan. Dengan adanya website ini, proses peminjaman buku menjadi lebih praktis, cepat, dan efisien.</p>
+            <p className="sm:w-80 w-60 text-xs mx-auto">Website ini dibuat untuk memudahkan pengguna dalam membaca dan meminjam buku dari rumah secara online, sehingga tidak perlu datang langsung ke perpustakaan. Dengan adanya website ini, proses peminjaman buku menjadi lebih praktis, cepat, dan efisien.</p>
           </div>
         </div>
       </div>
