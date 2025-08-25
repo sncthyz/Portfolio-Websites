@@ -378,7 +378,7 @@ function Skills() {
             <div className="bg-blue-950 p-10 rounded-xl">
               <img
                 src={mysql}
-                className="size-30 w-45 justify-center mx-auto "
+                className="size-30 w-40 justify-center mx-auto "
                 alt=""
               />
               <h1 className="text-white text-center text-2xl font-bold p-4">
@@ -411,11 +411,11 @@ function Skills() {
             </div>
           </div>
         </div>
-           <h1 className="animasi text-2xl font-bold text-white text-center mb-10 mt-10 ">
+           <h1 className="text-2xl animasi font-bold text-white text-center mb-10 mt-10 ">
           Cyber Security
         </h1>
         <div className="flex animasi flex-col sm:flex-row  gap-10 p-3 place-items-center place-content-center space-y-10 ">
-          <div className=" hover:scale-105 rounded-2xl ease-out duration-300 border-5  border-black">
+          <div className=" hover:scale-105 rounded-2xl  border-5  border-black">
             <div className="bg-blue-950 p-5 rounded-xl ">
               <img
                 src={linux}
@@ -427,7 +427,7 @@ function Skills() {
               </h1>
             </div>
           </div>
-           <div className=" hover:scale-105 rounded-2xl mb-10 ease-out duration-300 border-5  border-black">
+           <div className="animasi hover:scale-105 rounded-2xl mb-10 e border-5  border-black">
             <div className="bg-blue-950 p-5 rounded-xl ">
               <img
                 src={ctf}
@@ -458,7 +458,7 @@ function Skills() {
           </div>
         </div>
 
-        <h1 className=" text-center text-3xl animasi font-bold mt-30 mb-20  ">Design & Edit</h1>
+        <h1 className=" text-center animasi text-3xl animasi font-bold mt-30 mb-20  ">Design & Edit</h1>
         <div className="flex animasi flex-col sm:flex-row  gap-10 p-3  place-items-center place-content-center space-y-10 ">
           <div className=" hover:scale-105 ease-out rounded-2xl duration-300 border-5  border-black">
             <div className="bg-blue-950 p-5 rounded-xl">
@@ -612,7 +612,7 @@ function Contact() {
               </div>
                <div className=" flex space-x-3 ">
               <i className="fa-solid fa-location-dot text-3xl"></i>
-                <h1>East Jakarta, Indonesia</h1>
+                <h1>Jakarta Timur, Indonesia</h1>
               </div>
             </div>
           
