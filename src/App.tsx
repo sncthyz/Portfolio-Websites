@@ -507,10 +507,10 @@ function Project() {
     <>
       <div className="animasi space-y-20 mt-40" id="project">
         <h1 className="text-4xl font-bold text-center text-white">Project</h1>
-        <div className="grid p-3 sm:grid-cols-3 space-y-5 place-items-center">
-          <div className="bg-blue-900 animasi rounded-xl w-100 h-125 border-2 border-black">
+        <div className="grid p-12 sm:grid-cols-3 space-y-5 place-items-center">
+          <div className="bg-blue-900  animasi rounded-xl w-100 h-125 border-2 border-black">
             <div className="w-full h-65">
-            <img src={displaygambar} className="w-full  h-full object-cover" alt="" />
+            <img src={displaygambar} className="w-full rounded-t-xl  h-full object-cover" alt="" />
 
             </div>
 
@@ -520,7 +520,7 @@ function Project() {
           </div>
           <div className="bg-blue-900 animasi w-100 rounded-xl h-125 border-2 border-black">
             <div className="w-full h-65">
-            <img src={flappymonkey} className="w-full h-full object-cover" alt="" />
+            <img src={flappymonkey} className="w-full h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
 
@@ -530,7 +530,7 @@ function Project() {
           </div>
           <div className="bg-blue-900 animasi h-125 w-100 rounded-xl border-2 border-black">
             <div className="w-full h-65">
-            <img src={cekjulukan} className="w-full h-full object-cover" alt="" />
+            <img src={cekjulukan} className="w-full h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
             <h1 className="text-center mt-5 text-2xl mb-5">Cek Julukan</h1>
@@ -539,7 +539,7 @@ function Project() {
           </div>
              <div className="bg-blue-900 h-125 w-100 animasi rounded-xl border-2 border-black">
             <div className="w-full h-65">
-            <img src={perpus} className="w-full h-full object-cover" alt="" />
+            <img src={perpus} className="w-full h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
             <h1 className="text-center mt-5 text-2xl mb-5">E Library</h1>
