@@ -507,7 +507,7 @@ function Project() {
     <>
       <div className="animasi space-y-20 mt-40" id="project">
         <h1 className="text-4xl font-bold text-center text-white">Project</h1>
-        <div className="grid p-12 sm:grid-cols-3 space-y-5 place-items-center">
+        <div className="grid  sm:grid-cols-3 space-y-5 place-items-center">
           <div className="bg-blue-900  animasi rounded-xl w-100 h-125 border-2 border-black">
             <div className="w-full h-65">
             <img src={displaygambar} className="w-full rounded-t-xl  h-full object-cover" alt="" />
