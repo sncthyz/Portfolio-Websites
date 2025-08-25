@@ -30,7 +30,7 @@ import displaygambar from "./assets/display.png";
 import cekjulukan from './assets/image.png';
 import flappymonkey from './assets/gambar2.jpg';
 import perpus from './assets/gambar2.png';
-import cv from './assets/CV - Andika Cahya Rahman.pdf-1.pdf';
+import cv from './assets/CV - Andika Cahya Rahman.pdf';
 
 function LoadingScreen({fadeout}: {fadeout: boolean}) {
   return (
