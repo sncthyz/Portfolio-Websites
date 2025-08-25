@@ -562,7 +562,7 @@ function Contact() {
           Contact
         </h1>
         <div className="grid rounded-2xl sm:grid-cols-2 bg-blue-100 border-4 border-black">
-          <div className=" w-100 h-90 rounded-xl place-content-center">
+          <div className=" sm:w-100 w-80 sm:h-90 h-100 rounded-xl place-content-center">
             <form
               action="https://formspree.io/f/myzpqran"
               method="POST"
