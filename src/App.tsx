@@ -628,7 +628,7 @@ function Footer() {
  
   return (
     <>
-      <div className="bg-black mt-30 sm:h-110 h-210">
+      <div className="bg-black mt-30 sm:h-110 h-200">
         <div className="grid place-items-center space-y-10">
           <h1 className="text-white font-bold text-3xl mt-30">Portfolio</h1>
           <div className="flex sm:flex-row flex-col gap-10">
