@@ -18,7 +18,7 @@ import figma from "./assets/logo/figma-svgrepo-com.svg";
 import js from "./assets/logo/js-svgrepo-com.svg";
 import html from "./assets/logo/html-5-svgrepo-com(1).svg";
 import css from "./assets/logo/css-3-svgrepo-com.svg";
-import pelatihan from "./assets/pelatihan.png";
+import pelatihan from "./assets/pelatihan.jpg";
 import linkedinmicrosoft from "./assets/linkedinmicrosoft.png";
 import cisco from "./assets/cisco.png";
 import mysql from "./assets/logo/mysql-logo-svgrepo-com.svg";
