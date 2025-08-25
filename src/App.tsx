@@ -38,7 +38,7 @@ function LoadingScreen({fadeout}: {fadeout: boolean}) {
       <div
         className={`min-h-screen bg-black inset-0 place-content-center transition-opacity duration-1000 ease-in ${fadeout ? "opacity-0" : "opacity-100"}`}
       >
-        <h1 className="text-center font-bold text-4xl text-white">
+        <h1 className="text-center font-bold sm:text-4xl text-white">
           Welcome To My Portfolio
         </h1>
       </div>
@@ -77,37 +77,37 @@ function Main() {
                 <div className="flex space-x-4">
                   <a
                     href="#home"
-                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:text-black hover:border-white"
+                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1  hover:border-white"
                   >
                     Home
                   </a>
                   <a
                     href="#aboutme"
-                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:text-black hover:border-white"
+                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1  hover:border-white"
                   >
                     About
                   </a>
                   <a
                     href="#certificate"
-                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:text-black hover:border-white"
+                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:border-white"
                   >
                     Certificate
                   </a>
                    <a
                     href="#skills"
-                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:text-black hover:border-white"
+                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1  hover:border-white"
                   >
                     Skills
                   </a>
                   <a
                     href="#project"
-                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:text-black hover:border-white"
+                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1  hover:border-white"
                   >
                     Project
                   </a>
                   <a
                     href="#contact"
-                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:text-black hover:border-white"
+                    className="rounded-md px-3 py-2 text-sm text-white  hover:bg-blue-800 hover:border-1 hover:border-white"
                   >
                     Contact
                   </a>
@@ -122,37 +122,37 @@ function Main() {
             <DisclosureButton>
               <a
                 href="#home"
-                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2"
+                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 hover:border-1 hover:border-white"
               >
                 Home
               </a>
               <a
                 href="#aboutme"
-                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base"
+                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base hover:border-1 hover:border-white"
               >
                 About
               </a>
               <a
                 href="#certificate"
-                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base"
+                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base hover:border-1 hover:border-white"
               >
                 Certificate
               </a>
                <a
                 href="#skills"
-                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base"
+                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base hover:border-1 hover:border-white"
               >
                 Skills
               </a>
               <a
                 href="#project"
-                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base"
+                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base hover:border-1 hover:border-white"
               >
                 Project
               </a>
               <a
                 href="#contact"
-                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base"
+                className="block rounded-md px-3 text-white hover:bg-blue-800 font-bold py-2 text-base hover:border-1 hover:border-white"
               >
                 Contact
               </a>
