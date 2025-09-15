@@ -442,7 +442,7 @@ function Skills() {
             <div className="bg-blue-950 p-10 rounded-xl">
               <img
                 src={ts}
-                className="size-30 w-40 justify-center mx-auto "
+                className="size-30 w-40 jus tify-center mx-auto "
                 alt=""
               />
               <h1 className="text-white text-center text-2xl font-bold p-4">
