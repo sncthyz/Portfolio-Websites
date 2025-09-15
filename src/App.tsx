@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {
   Disclosure,
   DisclosureButton,
@@ -7,6 +8,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import { useEffect, useState } from "react";
 import linux from './assets/logo/linux-svgrepo-com.svg';
 // import chara from "./assets/chara.png";
+import portfolio5 from "./assets/portfolio5.png";
+
 import ctf from './assets/logo/imagesctf.jpg';
 import bootstrap from "./assets/logo/bootstrap-fill-svgrepo-com.svg";
 import php from "./assets/logo/php-svgrepo-com.svg";
@@ -31,6 +34,9 @@ import cekjulukan from './assets/image.png';
 import flappymonkey from './assets/gambar2.jpg';
 import perpus from './assets/gambar2.png';
 import cv from './assets/CV - Andika Cahya Rahman.pdf';
+import git from './assets/gittt.png';
+import github from './assets/github.webp';
+import robloxstudio from './assets/rstudio.png';
 
 function LoadingScreen({fadeout}: {fadeout: boolean}) {
   return (
@@ -160,7 +166,6 @@ function Main() {
           </div>
         </DisclosurePanel>
       </Disclosure>
-
       <Home />
       <AboutMe />
       <Certificate />
@@ -213,7 +218,7 @@ function Home() {
         <h1 className="text-white font-bold text-3xl">
           {teks[efekteks].substring(0, subindex)}
         </h1>
-        <h1 className="text-white font-bold text-xl">Software Engineer Student</h1>
+        <h1 className="text-white font-bold text-xl">Software Engineering Student</h1>
         <p className="text-white w-90">
 Saya adalah siswa SMK Rekayasa Perangkat Lunak yang tertarik pada dunia pemrograman, khususnya di bidang pengembangan web, aplikasi dan teknologi informasi.        </p>
         <div className="flex-1 flex space-x-3">
@@ -325,6 +330,18 @@ function Skills() {
               </h1>
             </div>
           </div>
+           <div className=" hover:scale-105 animasi ease-out duration-300 rounded-2xl border-5  border-black">
+            <div className="bg-blue-950 w-58 p-10 rounded-xl  ">
+              <img
+                src={git}
+                className="size-30 justify-center mx-auto "
+                alt=""
+              />
+              <h1 className="text-white text-center text-2xl font-bold p-4">
+                Git
+              </h1>
+            </div>
+          </div>
           <div className=" hover:scale-105 animasi ease-out rounded-2xl duration-300 border-5  border-black">
             <div className="bg-blue-950 p-10 rounded-xl">
               <img
@@ -374,6 +391,14 @@ function Skills() {
               </h1>
             </div>
           </div>
+          <div className=" hover:scale-105 ease-out rounded-2xl duration-300 border-5  border-black">
+            <div className="bg-blue-950 w-62 p-5 rounded-xl">
+              <img src={github} height={10} className=" w-40 justify-center mx-auto " alt="" />
+              <h1 className="text-white text-center text-2xl font-bold p-4">
+                Github
+              </h1>
+            </div>
+          </div>
           <div className=" hover:scale-105 animasi ease-out duration-300 border-5 rounded-2xl  border-black">
             <div className="bg-blue-950 p-10 rounded-xl">
               <img
@@ -386,6 +411,8 @@ function Skills() {
               </h1>
             </div>
           </div>
+          
+          
           <div className=" hover:scale-105 animasi ease-out duration-300 border-5 rounded-2xl mb-10  border-black">
             <div className="bg-blue-950 p-10 rounded-xl">
               <img
@@ -410,6 +437,8 @@ function Skills() {
               </h1>
             </div>
           </div>
+          </div>
+          
         </div>
            <h1 className="text-2xl animasi font-bold text-white text-center mb-10 mt-10 ">
           Cyber Security
@@ -443,7 +472,7 @@ function Skills() {
         <h1 className="text-2xl animasi font-bold text-white text-center mb-10 mt-10 ">
           Game Development
         </h1>
-        <div className="grid animasi sm:grid-cols-1 p-3 place-items-center place-content-center space-y-10 ">
+        <div className="flex flex-col gap-10 sm:flex-row animasi p-3 place-items-center place-content-center space-y-10 ">
           <div className=" hover:scale-105 rounded-2xl ease-out duration-300 border-5  border-black">
             <div className="bg-blue-950 p-5 rounded-xl ">
               <img
@@ -453,6 +482,19 @@ function Skills() {
               />
               <h1 className="text-white text-center text-2xl font-bold p-4">
                 Unity
+              </h1>
+            </div>
+          </div>
+          
+           <div className=" hover:scale-105 rounded-2xl ease-out duration-300 border-5  border-black">
+            <div className="bg-blue-950 p-5 rounded-xl ">
+              <img
+                src={robloxstudio}
+                height={10}  className=" w-40 justify-center mx-auto "
+                alt=""
+              />
+              <h1 className="text-white text-center text-2xl font-bold p-4">
+                Roblox Studio
               </h1>
             </div>
           </div>
@@ -497,7 +539,6 @@ function Skills() {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 }
@@ -542,9 +583,18 @@ function Project() {
             <img src={perpus} className="sm:w-full w-80 h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
-            <h1 className="text-center mt-5 text-2xl mb-5">E Library</h1>
-            <p className="sm:w-80 w-50 text-xs mx-auto">Website ini dibuat untuk memudahkan pengguna dalam membaca dan meminjam buku dari rumah secara online, sehingga tidak perlu datang langsung ke perpustakaan. Dengan adanya website ini, proses peminjaman buku menjadi lebih praktis, cepat, dan efisien.</p>
+            <h1 className="text-center mt-5 text-2xl mb-5">E-Library </h1>
+            <p className="sm:w-80 w-50 text-xs mx-auto">Website ini dibuat untuk memudahkan pengguna dalam membaca dan meminjam buku dari rumah secara online, sehingga tidak perlu datang langsung ke perpustakaan. </p>
           </div>
+            <div className="bg-blue-900 animasi sm:w-100 w-70 rounded-xl sm:h-125 h-140 border-2 border-black">
+            <div className="w-full h-65">
+            <img src={portfolio5} className="sm:w-full w-80 h-full  rounded-t-xl object-cover" alt="" />
+
+            </div>
+            <h1 className="text-center mt-5 text-2xl mb-5">Chatbot Waifu</h1>
+            <p className="sm:w-80 w-50 text-xs mx-auto">Website ini saya buat supaya pengguna bisa chat langsung dengan karakter anime kesukaannya.</p>
+          </div>
+         
         </div>
       </div>
     </>
