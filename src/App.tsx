@@ -8,6 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import { useEffect, useState } from "react";
 import linux from './assets/logo/linux-svgrepo-com.svg';
 // import chara from "./assets/chara.png";
+import ts from "./assets/ts.svg";
 import portfolio5 from "./assets/portfolio5.png";
 
 import ctf from './assets/logo/imagesctf.jpg';
@@ -437,6 +438,18 @@ function Skills() {
               </h1>
             </div>
           </div>
+          <div className=" hover:scale-105 animasi ease-out duration-300 border-5 rounded-2xl mb-10  border-black">
+            <div className="bg-blue-950 p-10 rounded-xl">
+              <img
+                src={ts}
+                className="size-30 w-40 justify-center mx-auto "
+                alt=""
+              />
+              <h1 className="text-white text-center text-2xl font-bold p-4">
+                TypeScript
+              </h1>
+            </div>
+          </div>
           </div>
           
         </div>
@@ -591,7 +604,7 @@ function Project() {
             <img src={portfolio5} className="sm:w-full w-80 h-full  rounded-t-xl object-cover" alt="" />
 
             </div>
-            <h1 className="text-center mt-5 text-2xl mb-5">Chatbot Waifu</h1>
+            <h1 className="text-center mt-5 text-2xl mb-5">CharacterBot</h1>
             <p className="sm:w-80 w-50 text-xs mx-auto">Website ini saya buat supaya pengguna bisa chat langsung dengan karakter anime kesukaannya.</p>
           </div>
          
