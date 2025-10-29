@@ -221,8 +221,8 @@ function Home() {
         </h1>
         <h1 className="text-white font-bold text-xl">Software Engineering Student</h1>
         <p className="text-white w-90">
-Saya adalah siswa SMK Rekayasa Perangkat Lunak yang tertarik pada dunia pemrograman, khususnya di bidang pengembangan web, aplikasi dan teknologi informasi.        </p>
-        <div className="flex-1 flex space-x-3">
+I am a Software Engineering Vocational School student who is interested in the world of programming, especially in the fields of web development, applications and information technology.  </p>
+      <div className="flex-1 flex space-x-3">
           <a
             href={cv}
             className="rounded-xl flex gap-3 w-40 mt-3 p-2 border-3 border-black hover:scale-110 hover:duration-300 hover:bg-blue-900 hover:text-white bg-blue-950 text-center text-blue-100 font-semibold"
@@ -255,7 +255,7 @@ function AboutMe() {
     >
       <h1 className="text-white text-4xl font-bold">About</h1>
       <p className="text-white sm:text-xl">
-Saya Andika Cahya Rahman. Saya memiliki ketertarikan yang besar pada dunia pemrograman dan komputer. Saya senang mempelajari hal-hal baru, baik di bidang akademik maupun non-akademik, terutama yang belum saya kuasai. Selain itu, saya memiliki ketertarikan dalam menyelesaikan masalah secara efektif di setiap tugas atau proyek yang saya kerjakan.      </p>
+My name is Andika Cahya Rahman. I have a strong interest in programming and computers. I enjoy learning new things, both academic and non-academic, especially those I haven't mastered yet. Furthermore, I'm passionate about solving problems effectively in every assignment or project I work on. </p>
     </div>
   );
 }
@@ -569,7 +569,7 @@ function Project() {
             </div>
 
             <h1 className="text-center mt-5 text-2xl mb-5">Gym Rex</h1>
-            <p className="sm:w-80 w-50 text-xs mx-auto">Aplikasi ini berguna untuk melihat panduan gerakan gym yang lengkap dengan langkah dan tips dasar. Aplikasi ini juga dibuat untuk menyelesaikan tugas akhir project kejuruan saya. </p>
+            <p className="sm:w-80 w-50 text-xs mx-auto">This app is useful for viewing comprehensive gym movement guides with basic steps and tips. It was also created to complete my final vocational project.</p>
             <a href="https://drive.google.com/file/d/1Ebw4BBCaJQ_F_15VdZ5YrdOJtqHUJjLB/view" className="rounded-xl mx-auto w-30 flex justify-center hover:scale-110 hover:duration-300 mt-3 p-2 border-3 border-black hover:bg-blue-900 hover:text-white bg-blue-950 text-center text-blue-100 font-semibold">View</a>
           </div>
           <div className="bg-blue-900  animasi rounded-2xl sm:w-100 w-70 sm:h-125 h-140 border-2 border-black">
@@ -579,7 +579,7 @@ function Project() {
             </div>
 
             <h1 className="text-center mt-5 text-2xl mb-3"> Flappy Monkey</h1>
-            <p className="sm:w-80 w-50 text-xs mx-auto">Game ini terinspirasi dari Game Flappy bird,dimana di dalam game ini player akan mengejar skor sebanyak mungkin dengan melewati rintangan dari pipa-pipa yang ada. Juga game ini dibuat untuk menyelesaikan tugas akhir project kejuruan saya. </p>
+            <p className="sm:w-80 w-50 text-xs mx-auto">This game is inspired by the Flappy Bird game, where players aim to score as high as possible by passing through obstacles made of pipes. This game was also created to complete my final project for my vocational school. </p>
             <a href="https://drive.google.com/file/d/1OD4UT5H0jQQZN6uLEM0KvRud4Me_35RB/view?usp=drive_link" className="rounded-xl mx-auto w-30 flex justify-center hover:scale-110 hover:duration-300 mt-3 p-2 border-3 border-black hover:bg-blue-900 hover:text-white bg-blue-950 text-center text-blue-100 font-semibold">View</a>
           </div>
           <div className="bg-blue-900 animasi sm:w-100 w-70 rounded-xl sm:h-125 h-140 border-2 border-black">
@@ -588,7 +588,7 @@ function Project() {
 
             </div>
             <h1 className="text-center mt-5 text-2xl mb-5">Cek Julukan</h1>
-            <p className="sm:w-80 w-50  mb-5 text-xs mx-auto">Website ini dibuat untuk mengecek julukan secara acak. Pengguna cukup memasukkan nama panggilan, lalu sistem akan secara otomatis memberikan julukan unik berdasarkan nama tersebut.</p>
+            <p className="sm:w-80 w-50  mb-5 text-xs mx-auto">This website was created to randomly check nicknames. Users simply enter a nickname, and the system will automatically generate a unique nickname based on that name.</p>
             <a href="https://cekjulukan.vercel.app/" className="rounded-xl mx-auto w-30 flex justify-center hover:scale-110 hover:duration-300 mt-3 p-2 border-3 border-black hover:bg-blue-900 hover:text-white bg-blue-950 text-center text-blue-100 font-semibold">View</a>
           </div>
           <div className="bg-blue-900 animasi sm:w-100 w-70 rounded-xl sm:h-125 h-140 border-2 border-black">
@@ -597,7 +597,7 @@ function Project() {
 
             </div>
             <h1 className="text-center mt-5 text-2xl mb-5">E-Library </h1>
-            <p className="sm:w-80 w-50 text-xs mx-auto">Website ini dibuat untuk memudahkan pengguna dalam membaca dan meminjam buku dari rumah secara online, sehingga tidak perlu datang langsung ke perpustakaan. </p>
+            <p className="sm:w-80 w-50 text-xs mx-auto">This website was created to make it easier for users to read and borrow books from home online, so they don't need to come directly to the library.</p>
           </div>
             <div className="bg-blue-900 animasi sm:w-100 w-70 rounded-xl sm:h-125 h-140 border-2 border-black">
             <div className="w-full h-65">
@@ -605,7 +605,7 @@ function Project() {
 
             </div>
             <h1 className="text-center mt-5 text-2xl mb-5">CharacterBot</h1>
-            <p className="sm:w-80 w-50 text-xs mx-auto">Website ini saya buat supaya pengguna bisa chat langsung dengan karakter anime kesukaannya.</p>
+            <p className="sm:w-80 w-50 text-xs mx-auto">I created this website so that users can chat directly with their favorite anime characters.</p>
           </div>
          
         </div>
@@ -659,7 +659,7 @@ function Contact() {
                 type="submit"
                 className="mt-5 bg-blue-950  hover:bg-blue-900 text-white "
               >
-                Kirim
+                Submit
               </button>
             </form>
           </div>
@@ -675,7 +675,7 @@ function Contact() {
               </div>
                <div className=" flex space-x-3 ">
               <i className="fa-solid fa-location-dot text-3xl"></i>
-                <h1>Jakarta Timur, Indonesia</h1>
+                <h1>East Jakarta, Jakarta, Indonesia</h1>
               </div>
             </div>
           
